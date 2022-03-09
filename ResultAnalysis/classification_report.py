@@ -1,4 +1,6 @@
 import pandas as pd
+
+
 class ClassificationReport(object):
     def __init__(self, y_true, y_pred, labels = None, target_name = None):
         y_true = pd.Series(y_true)
